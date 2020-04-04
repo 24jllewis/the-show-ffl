@@ -1,4 +1,4 @@
-import elo
+
 import urllib
 from sleeper_interface import Sleeper
 
@@ -6,7 +6,7 @@ from sleeper_interface import Sleeper
 class TheShow:
     def __init__(self):
         sleep = Sleeper()
-        sleep.get_matchups(6)
+        sleep.get_matchup_data(6)
 
     def get_data(self):
         pass
